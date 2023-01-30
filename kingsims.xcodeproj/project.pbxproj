@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		170B436729884E5700215F34 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 170B436629884E5700215F34 /* Poppins-Regular.ttf */; };
+		170B4369298853B900215F34 /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170B4368298853B900215F34 /* Carousel.swift */; };
+		170B436B2988543A00215F34 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170B436A2988543A00215F34 /* DetailsView.swift */; };
+		170B436D2988546600215F34 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170B436C2988546600215F34 /* ItemModel.swift */; };
+		170B436F298860AA00215F34 /* DetailItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170B436E298860AA00215F34 /* DetailItemView.swift */; };
+		170D06C2296B560A002768E1 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170D06C1296B560A002768E1 /* Color.swift */; };
+		171696E32966C479005F6E92 /* kingsimsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171696E22966C479005F6E92 /* kingsimsApp.swift */; };
+		171696E52966C479005F6E92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171696E42966C479005F6E92 /* ContentView.swift */; };
+		171696E72966C47C005F6E92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 171696E62966C47C005F6E92 /* Assets.xcassets */; };
+		171696EA2966C47C005F6E92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 171696E92966C47C005F6E92 /* Preview Assets.xcassets */; };
+		17ACF6B5296BF2C000DFA12B /* ProgressBarDataUsageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ACF6B4296BF2C000DFA12B /* ProgressBarDataUsageView.swift */; };
+		17ACF6B7296BF43C00DFA12B /* DataStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ACF6B6296BF43C00DFA12B /* DataStatusView.swift */; };
+		17ACF6B9296BF47200DFA12B /* DataPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ACF6B8296BF47200DFA12B /* DataPlanView.swift */; };
+		17ACF6BB296BF4AE00DFA12B /* DataPlanUntilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ACF6BA296BF4AE00DFA12B /* DataPlanUntilView.swift */; };
+		17ACF6BD296BF4ED00DFA12B /* DataPlanContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ACF6BC296BF4ED00DFA12B /* DataPlanContainerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		170B436629884E5700215F34 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		170B4368298853B900215F34 /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
+		170B436A2988543A00215F34 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		170B436C2988546600215F34 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		170B436E298860AA00215F34 /* DetailItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailItemView.swift; sourceTree = "<group>"; };
+		170D06C1296B560A002768E1 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		170D06C3296B5B19002768E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		171696DF2966C479005F6E92 /* kingsims.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kingsims.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		171696E22966C479005F6E92 /* kingsimsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kingsimsApp.swift; sourceTree = "<group>"; };
+		171696E42966C479005F6E92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		171696E62966C47C005F6E92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		171696E92966C47C005F6E92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		17ACF6B4296BF2C000DFA12B /* ProgressBarDataUsageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarDataUsageView.swift; sourceTree = "<group>"; };
+		17ACF6B6296BF43C00DFA12B /* DataStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStatusView.swift; sourceTree = "<group>"; };
+		17ACF6B8296BF47200DFA12B /* DataPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPlanView.swift; sourceTree = "<group>"; };
+		17ACF6BA296BF4AE00DFA12B /* DataPlanUntilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPlanUntilView.swift; sourceTree = "<group>"; };
+		17ACF6BC296BF4ED00DFA12B /* DataPlanContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPlanContainerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		171696DC2966C479005F6E92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		171696D62966C479005F6E92 = {
+			isa = PBXGroup;
+			children = (
+				171696E12966C479005F6E92 /* kingsims */,
+				171696E02966C479005F6E92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		171696E02966C479005F6E92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				171696DF2966C479005F6E92 /* kingsims.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		171696E12966C479005F6E92 /* kingsims */ = {
+			isa = PBXGroup;
+			children = (
+				170B436629884E5700215F34 /* Poppins-Regular.ttf */,
+				17ACF6B3296BF26C00DFA12B /* Views */,
+				170D06C3296B5B19002768E1 /* Info.plist */,
+				171696E22966C479005F6E92 /* kingsimsApp.swift */,
+				171696E42966C479005F6E92 /* ContentView.swift */,
+				171696E62966C47C005F6E92 /* Assets.xcassets */,
+				171696E82966C47C005F6E92 /* Preview Content */,
+				170D06C1296B560A002768E1 /* Color.swift */,
+				170B4368298853B900215F34 /* Carousel.swift */,
+				170B436A2988543A00215F34 /* DetailsView.swift */,
+				170B436C2988546600215F34 /* ItemModel.swift */,
+				170B436E298860AA00215F34 /* DetailItemView.swift */,
+			);
+			path = kingsims;
+			sourceTree = "<group>";
+		};
+		171696E82966C47C005F6E92 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				171696E92966C47C005F6E92 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		17ACF6B3296BF26C00DFA12B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				17ACF6B4296BF2C000DFA12B /* ProgressBarDataUsageView.swift */,
+				17ACF6B6296BF43C00DFA12B /* DataStatusView.swift */,
+				17ACF6B8296BF47200DFA12B /* DataPlanView.swift */,
+				17ACF6BA296BF4AE00DFA12B /* DataPlanUntilView.swift */,
+				17ACF6BC296BF4ED00DFA12B /* DataPlanContainerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		171696DE2966C479005F6E92 /* kingsims */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 171696ED2966C47C005F6E92 /* Build configuration list for PBXNativeTarget "kingsims" */;
+			buildPhases = (
+				171696DB2966C479005F6E92 /* Sources */,
+				171696DC2966C479005F6E92 /* Frameworks */,
+				171696DD2966C479005F6E92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kingsims;
+			productName = kingsims;
+			productReference = 171696DF2966C479005F6E92 /* kingsims.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		171696D72966C479005F6E92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					171696DE2966C479005F6E92 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 171696DA2966C479005F6E92 /* Build configuration list for PBXProject "kingsims" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 171696D62966C479005F6E92;
+			productRefGroup = 171696E02966C479005F6E92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				171696DE2966C479005F6E92 /* kingsims */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		171696DD2966C479005F6E92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170B436729884E5700215F34 /* Poppins-Regular.ttf in Resources */,
+				171696EA2966C47C005F6E92 /* Preview Assets.xcassets in Resources */,
+				171696E72966C47C005F6E92 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		171696DB2966C479005F6E92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				171696E52966C479005F6E92 /* ContentView.swift in Sources */,
+				170B436B2988543A00215F34 /* DetailsView.swift in Sources */,
+				17ACF6BD296BF4ED00DFA12B /* DataPlanContainerView.swift in Sources */,
+				17ACF6B9296BF47200DFA12B /* DataPlanView.swift in Sources */,
+				170B436D2988546600215F34 /* ItemModel.swift in Sources */,
+				17ACF6B5296BF2C000DFA12B /* ProgressBarDataUsageView.swift in Sources */,
+				170D06C2296B560A002768E1 /* Color.swift in Sources */,
+				17ACF6BB296BF4AE00DFA12B /* DataPlanUntilView.swift in Sources */,
+				170B436F298860AA00215F34 /* DetailItemView.swift in Sources */,
+				170B4369298853B900215F34 /* Carousel.swift in Sources */,
+				171696E32966C479005F6E92 /* kingsimsApp.swift in Sources */,
+				17ACF6B7296BF43C00DFA12B /* DataStatusView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		171696EB2966C47C005F6E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		171696EC2966C47C005F6E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		171696EE2966C47C005F6E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kingsims/Preview Content\"";
+				DEVELOPMENT_TEAM = K2ZJ39U3MC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = kingsims/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.travelempire.kingsims;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		171696EF2966C47C005F6E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kingsims/Preview Content\"";
+				DEVELOPMENT_TEAM = K2ZJ39U3MC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = kingsims/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.travelempire.kingsims;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		171696DA2966C479005F6E92 /* Build configuration list for PBXProject "kingsims" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				171696EB2966C47C005F6E92 /* Debug */,
+				171696EC2966C47C005F6E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		171696ED2966C47C005F6E92 /* Build configuration list for PBXNativeTarget "kingsims" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				171696EE2966C47C005F6E92 /* Debug */,
+				171696EF2966C47C005F6E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 171696D72966C479005F6E92 /* Project object */;
+}
